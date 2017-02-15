@@ -1,0 +1,971 @@
+2016-05-28 17:01:41,076 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sage=? 
+2016-05-28 17:01:41,183 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 22(Integer)
+2016-05-28 17:01:41,215 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 0
+2016-05-28 17:02:01,582 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-05-28 17:02:01,679 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:02:01,709 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 0
+2016-05-28 17:03:37,874 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:37,971 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三0(String), 21(Integer), 0(Integer), 湖北(String)
+2016-05-28 17:03:37,976 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:37,978 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:37,978 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,001 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,018 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 42
+2016-05-28 17:03:38,019 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,020 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,020 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三1(String), 20(Integer), 0(Integer), 广东(String)
+2016-05-28 17:03:38,021 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,021 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,021 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,022 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,022 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43
+2016-05-28 17:03:38,022 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,022 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,023 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三2(String), 18(Integer), 0(Integer), 广东(String)
+2016-05-28 17:03:38,023 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,023 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,024 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,024 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,024 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 44
+2016-05-28 17:03:38,025 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,025 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,025 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三3(String), 21(Integer), 1(Integer), 湖南(String)
+2016-05-28 17:03:38,026 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,026 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,026 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,027 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,027 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45
+2016-05-28 17:03:38,027 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,028 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,028 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三4(String), 22(Integer), 0(Integer), 湖南(String)
+2016-05-28 17:03:38,028 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,029 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,029 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,029 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,030 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 46
+2016-05-28 17:03:38,030 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,030 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,030 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三5(String), 22(Integer), 0(Integer), 湖北(String)
+2016-05-28 17:03:38,031 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,031 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,031 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,032 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,032 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47
+2016-05-28 17:03:38,032 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,032 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,033 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三6(String), 20(Integer), 0(Integer), 湖南(String)
+2016-05-28 17:03:38,033 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,033 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,034 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,034 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,034 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48
+2016-05-28 17:03:38,035 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,035 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,036 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三7(String), 20(Integer), 1(Integer), 广东(String)
+2016-05-28 17:03:38,037 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,037 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,038 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,039 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,039 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 49
+2016-05-28 17:03:38,040 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,040 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,040 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三8(String), 18(Integer), 0(Integer), 湖北(String)
+2016-05-28 17:03:38,041 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,041 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,042 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,042 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,043 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50
+2016-05-28 17:03:38,043 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:38,043 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:38,043 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三9(String), 20(Integer), 1(Integer), 湖南(String)
+2016-05-28 17:03:38,044 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:38,044 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:38,044 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:38,045 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:38,045 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51
+2016-05-28 17:03:38,045 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,480 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,577 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三0(String), 19(Integer), 1(Integer), 湖北(String)
+2016-05-28 17:03:48,581 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,583 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,583 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,607 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,611 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52
+2016-05-28 17:03:48,613 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,613 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,614 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三1(String), 22(Integer), 0(Integer), 湖北(String)
+2016-05-28 17:03:48,614 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,615 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,615 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,615 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,616 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 53
+2016-05-28 17:03:48,616 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,616 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,616 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三2(String), 20(Integer), 0(Integer), 湖北(String)
+2016-05-28 17:03:48,617 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,617 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,617 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,618 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,618 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 54
+2016-05-28 17:03:48,618 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,618 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,618 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三3(String), 20(Integer), 1(Integer), 广东(String)
+2016-05-28 17:03:48,619 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,619 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,620 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,620 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,620 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 55
+2016-05-28 17:03:48,620 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三4(String), 18(Integer), 0(Integer), 湖南(String)
+2016-05-28 17:03:48,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,622 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,622 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,622 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 56
+2016-05-28 17:03:48,622 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,623 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,623 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三5(String), 21(Integer), 1(Integer), 山东(String)
+2016-05-28 17:03:48,624 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,624 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,624 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,624 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,625 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 57
+2016-05-28 17:03:48,625 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,625 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,625 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三6(String), 19(Integer), 1(Integer), 湖南(String)
+2016-05-28 17:03:48,626 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,626 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,626 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,627 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,627 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 58
+2016-05-28 17:03:48,627 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,628 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,629 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三7(String), 18(Integer), 0(Integer), 广东(String)
+2016-05-28 17:03:48,629 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,630 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,630 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,631 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,631 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 59
+2016-05-28 17:03:48,632 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,632 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,633 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三8(String), 20(Integer), 0(Integer), 广东(String)
+2016-05-28 17:03:48,633 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,633 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,633 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,633 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,635 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 60
+2016-05-28 17:03:48,635 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:03:48,635 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:03:48,635 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三9(String), 19(Integer), 0(Integer), 广东(String)
+2016-05-28 17:03:48,636 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:03:48,636 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:03:48,636 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:03:48,637 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:03:48,637 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 61
+2016-05-28 17:03:48,638 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,185 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,283 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三0(String), 22(Integer), 0(Integer), 广东(String)
+2016-05-28 17:04:08,288 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,290 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,290 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,315 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,319 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 62
+2016-05-28 17:04:08,321 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,322 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,322 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三1(String), 21(Integer), 0(Integer), 广东(String)
+2016-05-28 17:04:08,323 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,323 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,324 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,324 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,325 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 63
+2016-05-28 17:04:08,325 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,325 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,325 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三2(String), 19(Integer), 1(Integer), 山东(String)
+2016-05-28 17:04:08,326 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,326 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,326 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,327 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,327 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 64
+2016-05-28 17:04:08,328 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,328 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,328 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三3(String), 19(Integer), 0(Integer), 湖南(String)
+2016-05-28 17:04:08,329 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,329 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,329 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,330 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,330 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 65
+2016-05-28 17:04:08,331 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,331 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,331 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三4(String), 22(Integer), 0(Integer), 湖北(String)
+2016-05-28 17:04:08,332 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,332 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,332 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,333 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,333 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 66
+2016-05-28 17:04:08,333 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,334 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,334 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三5(String), 20(Integer), 0(Integer), 山东(String)
+2016-05-28 17:04:08,335 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,335 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,335 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,336 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,336 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 67
+2016-05-28 17:04:08,336 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,336 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,337 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三6(String), 21(Integer), 0(Integer), 广东(String)
+2016-05-28 17:04:08,337 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,338 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,338 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,339 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,339 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 68
+2016-05-28 17:04:08,339 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,340 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,341 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三7(String), 22(Integer), 1(Integer), 湖北(String)
+2016-05-28 17:04:08,342 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,342 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,342 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,343 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,344 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 69
+2016-05-28 17:04:08,344 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,345 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,346 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三8(String), 21(Integer), 1(Integer), 湖南(String)
+2016-05-28 17:04:08,347 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,347 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,347 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,348 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,348 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 70
+2016-05-28 17:04:08,348 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:08,349 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:04:08,349 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三9(String), 18(Integer), 1(Integer), 山东(String)
+2016-05-28 17:04:08,350 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:04:08,350 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:04:08,350 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:08,351 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:04:08,352 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 71
+2016-05-28 17:04:08,352 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:04:29,031 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-05-28 17:04:29,127 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:04:29,158 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 0
+2016-05-28 17:06:19,633 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,731 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三0(String), 20(Integer), 0(Integer), 山东(String)
+2016-05-28 17:06:19,737 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,738 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,739 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,763 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,768 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1
+2016-05-28 17:06:19,769 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,771 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,771 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三1(String), 19(Integer), 1(Integer), 广东(String)
+2016-05-28 17:06:19,772 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,772 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,773 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,773 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,773 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2
+2016-05-28 17:06:19,774 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,774 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,775 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三2(String), 20(Integer), 1(Integer), 湖北(String)
+2016-05-28 17:06:19,775 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,776 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,776 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,776 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,776 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3
+2016-05-28 17:06:19,777 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,777 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,778 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三3(String), 20(Integer), 1(Integer), 湖南(String)
+2016-05-28 17:06:19,778 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,779 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,779 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,780 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,780 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4
+2016-05-28 17:06:19,780 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,781 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,781 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三4(String), 19(Integer), 1(Integer), 广东(String)
+2016-05-28 17:06:19,782 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,782 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,782 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,783 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,783 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5
+2016-05-28 17:06:19,783 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,784 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,785 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三5(String), 18(Integer), 1(Integer), 湖北(String)
+2016-05-28 17:06:19,785 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,785 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,785 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,786 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,786 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6
+2016-05-28 17:06:19,786 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,787 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,787 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三6(String), 20(Integer), 0(Integer), 山东(String)
+2016-05-28 17:06:19,788 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,788 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,788 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,789 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,789 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-05-28 17:06:19,789 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,790 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,791 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三7(String), 19(Integer), 1(Integer), 湖北(String)
+2016-05-28 17:06:19,792 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,792 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,793 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,794 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,794 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8
+2016-05-28 17:06:19,794 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,796 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,797 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三8(String), 20(Integer), 0(Integer), 广东(String)
+2016-05-28 17:06:19,797 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,797 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,798 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,798 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,799 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9
+2016-05-28 17:06:19,799 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:19,800 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: insert into student values(seq_student_sid.nextval,?,?,?,?) 
+2016-05-28 17:06:19,800 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三9(String), 21(Integer), 1(Integer), 广东(String)
+2016-05-28 17:06:19,800 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:06:19,801 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select seq_student_sid.currval from dual 
+2016-05-28 17:06:19,801 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:19,802 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: CURRVAL
+2016-05-28 17:06:19,802 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10
+2016-05-28 17:06:19,803 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-05-28 17:06:30,305 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-05-28 17:06:30,402 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:30,436 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:06:30,440 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:06:30,442 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-05-28 17:06:30,442 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:06:30,442 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:06:30,443 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-05-28 17:06:30,444 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-05-28 17:06:30,445 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:06:30,445 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-05-28 17:06:30,446 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:06:30,446 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-05-28 17:06:30,447 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-05-28 17:06:44,034 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-05-28 17:06:44,132 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:06:44,164 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:06:44,168 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:06:44,170 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-05-28 17:06:44,170 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:06:44,170 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:06:44,171 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-05-28 17:06:44,171 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-05-28 17:06:44,172 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:06:44,172 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-05-28 17:06:44,173 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:06:44,173 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-05-28 17:06:44,174 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-05-28 17:06:56,216 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sage=? 
+2016-05-28 17:06:56,312 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 22(Integer)
+2016-05-28 17:06:56,344 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 0
+2016-05-28 17:07:06,539 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-05-28 17:07:06,639 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:07:06,670 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:07:06,675 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:07:06,677 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-05-28 17:07:06,678 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:07:06,678 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:07:06,679 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-05-28 17:07:06,679 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-05-28 17:07:06,680 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:07:06,681 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-05-28 17:07:06,681 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:07:06,682 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-05-28 17:07:06,683 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-05-28 17:07:18,897 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sage=? 
+2016-05-28 17:07:18,994 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 20(Integer)
+2016-05-28 17:07:19,025 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:07:19,030 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:07:19,031 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:07:19,031 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:07:19,032 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:07:19,032 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:07:19,033 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 5
+2016-05-28 17:07:26,093 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sex=? and sage=? 
+2016-05-28 17:07:26,189 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer), 20(Integer)
+2016-05-28 17:07:26,221 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:07:26,226 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:07:26,227 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:07:26,227 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 2
+2016-05-28 17:07:44,138 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-05-28 17:07:44,238 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:07:44,269 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:07:44,274 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:07:44,275 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-05-28 17:07:44,276 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:07:44,276 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:07:44,276 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-05-28 17:07:44,277 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-05-28 17:07:44,277 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:07:44,278 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-05-28 17:07:44,278 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:07:44,278 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-05-28 17:07:44,279 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-05-28 17:08:00,716 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sage=? 
+2016-05-28 17:08:00,815 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 20(Integer)
+2016-05-28 17:08:00,846 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:08:00,850 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:08:00,852 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:08:00,852 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:08:00,852 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:08:00,853 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:08:00,853 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 5
+2016-05-28 17:08:13,167 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sex=? and sage=? 
+2016-05-28 17:08:13,265 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer), 20(Integer)
+2016-05-28 17:08:13,299 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:08:13,304 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:08:13,306 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:08:13,306 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 2
+2016-05-28 17:09:40,880 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sex=? and sage=? 
+2016-05-28 17:09:40,977 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer), 20(Integer)
+2016-05-28 17:09:41,007 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:09:41,012 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:09:41,014 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:09:41,014 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 2
+2016-05-28 17:10:03,591 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: update student SET sname=?, sage=?, sex=? where sid=? 
+2016-05-28 17:19:33,819 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: update student SET sname=?, sage=?, sex=? where sid=? 
+2016-05-28 17:19:33,918 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 张三3(String), 20(Integer), 1(Integer), 4(Integer)
+2016-05-28 17:19:33,923 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==    Updates: 1
+2016-05-28 17:26:08,322 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student and sex=? 
+2016-05-28 17:26:08,421 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-05-28 17:26:44,284 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where 1=1 and sex=? 
+2016-05-28 17:26:44,385 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-05-28 17:26:44,417 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:26:44,422 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-05-28 17:26:44,423 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:26:44,423 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:26:44,424 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-05-28 17:26:44,424 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-05-28 17:26:44,425 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-05-28 17:26:44,425 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-05-28 17:26:44,425 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 7
+2016-05-28 17:27:14,675 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where 1=1 
+2016-05-28 17:27:14,775 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-05-28 17:27:14,808 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:27:14,813 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:27:14,815 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-05-28 17:27:14,815 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:27:14,816 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:27:14,816 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-05-28 17:27:14,816 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-05-28 17:27:14,817 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:27:14,817 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-05-28 17:27:14,818 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:27:14,818 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-05-28 17:27:14,819 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-05-28 17:29:09,395 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where and sage=? 
+2016-05-28 17:29:09,504 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 20(Integer)
+2016-05-28 17:29:51,554 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where 1=1 and sage=? 
+2016-05-28 17:29:51,653 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 20(Integer)
+2016-05-28 17:29:51,687 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:29:51,692 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-05-28 17:29:51,693 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:29:51,694 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:29:51,694 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-05-28 17:29:51,695 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-05-28 17:29:51,695 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 5
+2016-05-28 17:30:01,216 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where 1=1 and sex=? 
+2016-05-28 17:30:01,316 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-05-28 17:30:01,348 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-05-28 17:30:01,353 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-05-28 17:30:01,354 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-05-28 17:30:01,355 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-05-28 17:30:01,355 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-05-28 17:30:01,355 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-05-28 17:30:01,356 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-05-28 17:30:01,356 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-05-28 17:30:01,357 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 7
+2016-06-02 14:29:34,965 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 14:29:35,065 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 14:29:35,196 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 14:29:35,196 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 14:29:35,196 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sage=? 
+2016-06-02 14:29:35,196 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 20(Integer)
+2016-06-02 14:29:35,213 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 14:29:35,214 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 14:29:35,214 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 14:29:35,214 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 14:29:35,215 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 14:29:35,215 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 14:29:35,216 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 5
+2016-06-02 14:35:09,246 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 14:35:09,342 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 14:35:09,372 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 14:35:09,376 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 14:35:09,378 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 14:35:09,378 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 14:35:09,378 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 14:35:09,379 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 14:35:09,379 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 14:35:09,380 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 14:35:09,380 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 14:35:09,381 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 14:35:09,381 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 14:35:09,382 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 14:35:09,383 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sage=? 
+2016-06-02 14:35:09,384 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 20(Integer)
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 14:35:09,384 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 5
+2016-06-02 14:35:09,384 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sage=? 
+2016-06-02 14:35:09,384 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 20(Integer)
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 14:35:09,384 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 14:35:09,384 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 5
+2016-06-02 14:52:30,767 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 14:52:30,999 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 14:52:31,099 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 14:52:31,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 14:52:31,146 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 14:52:31,146 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 14:52:31,146 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5
+2016-06-02 15:09:13,532 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 15:09:13,770 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 15:09:13,870 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 15:09:13,902 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 15:09:13,902 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 15:09:13,902 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 15:09:13,902 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 15:09:13,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 15:09:13,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 15:09:13,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 15:09:13,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 15:09:13,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 15:09:13,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 15:09:13,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 15:09:13,917 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 15:10:26,574 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 15:10:26,812 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 15:10:26,897 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 15:10:26,928 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 15:10:26,944 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 15:10:26,944 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 15:10:52,697 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 15:10:52,929 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 15:10:53,029 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 15:10:53,052 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 15:10:53,052 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 15:10:53,052 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 15:10:53,052 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 15:10:53,052 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 15:10:53,052 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 15:10:53,052 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 15:10:53,067 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 15:10:53,067 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 15:10:53,067 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 15:10:53,067 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 15:10:53,067 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 15:10:53,067 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5
+2016-06-02 15:12:26,238 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 15:12:26,483 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 15:12:26,584 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 15:12:26,620 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 15:12:26,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 15:12:26,621 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 15:12:26,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sex=? and sage=? 
+2016-06-02 15:12:26,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer), 20(Integer)
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 15:12:26,621 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 15:12:26,621 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 2
+2016-06-02 15:20:49,447 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 15:20:49,700 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 15:20:49,798 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 15:20:49,816 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 15:20:49,832 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 15:20:49,832 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2016-06-02 15:20:49,832 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sex=? and sage=? 
+2016-06-02 15:20:49,832 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer), 20(Integer)
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 15:20:49,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 15:20:49,848 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 15:20:49,848 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 2
+2016-06-02 17:07:11,087 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 17:07:11,183 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 17:07:11,215 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 17:07:11,219 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 17:07:11,221 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 17:07:11,221 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 17:07:11,221 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 17:07:11,222 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 17:07:11,222 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 17:07:11,223 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 17:07:11,223 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 17:07:11,223 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 17:07:11,224 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 17:07:11,224 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 17:07:11,226 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sex=? and sage=? 
+2016-06-02 17:07:11,226 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer), 20(Integer)
+2016-06-02 17:07:11,227 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 17:07:11,228 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 17:07:11,228 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 17:07:11,228 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 2
+2016-06-02 17:07:57,809 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student 
+2016-06-02 17:07:57,909 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 
+2016-06-02 17:07:57,940 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 17:07:57,945 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 1, 张三0, 20, 0, 山东
+2016-06-02 17:07:57,946 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 2, 张三1, 19, 1, 广东
+2016-06-02 17:07:57,947 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 17:07:57,947 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 17:07:57,948 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 5, 张三4, 19, 1, 广东
+2016-06-02 17:07:57,948 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 6, 张三5, 18, 1, 湖北
+2016-06-02 17:07:57,948 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三6, 20, 0, 山东
+2016-06-02 17:07:57,949 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 8, 张三7, 19, 1, 湖北
+2016-06-02 17:07:57,949 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三8, 20, 0, 广东
+2016-06-02 17:07:57,949 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三9, 21, 1, 广东
+2016-06-02 17:07:57,951 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 10
+2016-06-02 17:07:57,953 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student WHERE sex=? and sage=? 
+2016-06-02 17:07:57,954 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer), 20(Integer)
+2016-06-02 17:07:57,956 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2016-06-02 17:07:57,956 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 3, 张三2, 20, 1, 湖北
+2016-06-02 17:07:57,956 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 湖南
+2016-06-02 17:07:57,957 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 2
+2016-06-02 21:44:54,419 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 21:44:54,527 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 21:44:54,554 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 21:44:54,559 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 21:44:54,560 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 21:45:30,781 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 21:45:30,883 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 21:45:30,912 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 21:45:30,917 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 21:45:30,918 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 21:45:56,107 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 21:45:56,209 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 21:45:56,238 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 21:45:56,242 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 21:45:56,244 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 21:45:56,244 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 21:45:56,245 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 21:45:56,245 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 21:45:56,246 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 21:45:56,246 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 21:56:00,370 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 21:56:00,471 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 21:57:10,752 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 21:57:10,859 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 21:57:10,887 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 21:57:10,891 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 21:57:10,892 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 21:57:10,893 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 21:57:10,893 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 21:57:10,894 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 21:57:10,894 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 21:57:10,895 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 22:04:27,385 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 22:04:27,492 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 22:04:27,520 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 22:04:27,525 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 22:04:27,526 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 22:04:27,527 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 22:04:27,527 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 22:04:27,528 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 22:04:27,529 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 22:04:27,529 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 22:05:54,273 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 22:05:54,376 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 22:05:54,403 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 22:05:54,408 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 22:05:54,410 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-02 22:05:54,410 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-02 22:05:54,411 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-02 22:05:54,411 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-02 22:05:54,412 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-02 22:05:54,412 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-03 12:16:47,670 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-03 12:16:47,770 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-03 12:16:47,796 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-03 12:16:47,811 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-03 12:16:47,811 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-03 12:16:47,811 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2016-06-03 12:16:47,811 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2016-06-03 12:16:47,811 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: STUCOUNT
+2016-06-03 12:16:47,811 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7
+2016-06-03 12:16:47,811 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 1
+2016-06-03 14:15:01,094 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select count(*) as stucount from student where sex=? 
+2017-02-15 15:05:45,615 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:05:46,016 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:05:46,152 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:05:46,186 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:05:46,191 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:05:46,193 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:05:46,193 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:05:46,193 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:05:46,194 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:05:46,194 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:05:46,195 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:05:46,195 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:05:46,195 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:05:46,195 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:05:46,197 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:05:46,197 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:05:46,198 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:05:46,198 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:05:46,198 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:05:46,199 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:05:46,200 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:05:46,201 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:05:46,201 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:05:46,201 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:05:46,203 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:05:46,203 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:05:46,203 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:05:46,203 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:05:46,205 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:05:46,232 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:05:46,233 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:05:46,234 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:05:46,235 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:05:46,235 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:05:46,236 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:05:46,236 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:05:46,236 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:05:46,237 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:05:46,237 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:05:46,237 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:05:46,238 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:05:46,238 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:05:46,240 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:05:46,240 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:05:46,240 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:05:46,241 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:05:46,241 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:05:46,242 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:05:46,242 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:05:46,243 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:05:46,243 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:05:46,243 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:05:46,245 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:05:46,245 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:05:46,246 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:05:46,246 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:06:13,073 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 1.0
+2017-02-15 15:06:13,077 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 1.0
+2017-02-15 15:06:44,343 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:06:44,676 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:06:44,793 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:06:44,825 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:06:44,829 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:06:44,831 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:06:44,831 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:06:44,831 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:06:44,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:06:44,832 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:06:44,833 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:06:44,833 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:06:44,833 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:06:44,833 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:06:44,835 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:06:44,835 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:06:44,835 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:06:44,835 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:06:44,836 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:06:44,836 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:06:44,837 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:06:44,838 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:06:44,838 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:06:44,838 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:06:44,839 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:06:44,840 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:06:44,840 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:06:44,840 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:06:44,846 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5
+2017-02-15 15:07:24,667 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:07:24,986 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:07:25,085 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:07:25,116 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:07:25,121 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:07:25,123 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:07:25,123 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:07:25,124 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:07:25,124 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:07:25,125 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:07:25,126 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:07:25,126 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:07:25,126 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:07:25,127 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:07:25,128 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:07:25,129 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:07:25,129 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:07:25,129 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:07:25,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:07:25,130 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:07:25,132 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:07:25,133 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:07:25,133 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:07:25,133 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:07:25,135 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:07:25,135 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:07:25,135 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:07:25,136 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:07:25,142 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5
+2017-02-15 15:08:48,740 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:08:49,046 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:08:49,148 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:08:49,180 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:08:49,184 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:08:49,186 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:08:49,186 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:08:49,186 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:08:49,187 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:08:49,187 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:08:49,188 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:08:49,188 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:08:49,188 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:08:49,189 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:08:49,190 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:08:49,190 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:08:49,190 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:08:49,191 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:08:49,191 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:08:49,191 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:08:49,193 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:08:49,193 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:08:49,193 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:08:49,194 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:08:49,195 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:08:49,195 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:08:49,195 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:08:49,196 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:08:49,197 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:08:49,223 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:08:49,224 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:08:49,226 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:08:49,226 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:08:49,226 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:08:49,227 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:08:49,227 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:08:49,227 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:08:49,227 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:08:49,228 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:08:49,228 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:08:49,228 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:08:49,228 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:08:49,229 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:08:49,230 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:08:49,230 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:08:49,230 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:08:49,230 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:08:49,231 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:08:49,231 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:08:49,231 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:08:49,231 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:08:49,231 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:08:49,232 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:08:49,232 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:08:49,233 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:08:49,233 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:09:19,585 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:09:19,932 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:09:20,041 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:09:20,074 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:09:20,078 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:09:20,080 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:09:20,080 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:09:20,081 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:09:20,081 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:09:20,081 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:09:20,082 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:09:20,082 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:09:20,082 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:09:20,083 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:09:20,083 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:09:20,084 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:09:20,084 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:09:20,084 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:09:20,084 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:09:20,085 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:09:20,087 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:09:20,087 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:09:20,087 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:09:20,087 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:09:20,088 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:09:20,088 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:09:20,089 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:09:20,089 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:09:20,095 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5
+2017-02-15 15:45:43,531 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.0
+2017-02-15 15:45:43,834 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==>  Preparing: select * from student where sex=? 
+2017-02-15 15:45:43,940 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - ==> Parameters: 1(Integer)
+2017-02-15 15:45:43,976 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==    Columns: SID, SNAME, SAGE, SEX, ADDRESS
+2017-02-15 15:45:43,980 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 4, 张三3, 20, 1, 山东
+2017-02-15 15:45:43,982 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 7, 张三4, 19, 1, 山东
+2017-02-15 15:45:43,982 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 9, 张三6, 19, 1, 湖北
+2017-02-15 15:45:43,983 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 10, 张三7, 19, 1, 湖南
+2017-02-15 15:45:43,983 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 11, 张三8, 21, 1, 湖南
+2017-02-15 15:45:43,983 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 12, 张三9, 21, 1, 湖南
+2017-02-15 15:45:43,984 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 16, 张三3, 22, 1, 湖北
+2017-02-15 15:45:43,984 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 21, 张三8, 22, 1, 湖南
+2017-02-15 15:45:43,985 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 28, 张三5, 19, 1, 山东
+2017-02-15 15:45:43,985 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 30, 张三7, 22, 1, 湖北
+2017-02-15 15:45:43,986 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 31, 张三8, 20, 1, 广东
+2017-02-15 15:45:43,986 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 33, 张三0, 22, 1, 湖南
+2017-02-15 15:45:43,987 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 34, 张三1, 18, 1, 湖北
+2017-02-15 15:45:43,987 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 35, 张三2, 22, 1, 湖北
+2017-02-15 15:45:43,987 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 37, 张三4, 19, 1, 山东
+2017-02-15 15:45:43,988 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 39, 张三6, 20, 1, 湖南
+2017-02-15 15:45:43,989 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 43, 张三0, 22, 1, 湖南
+2017-02-15 15:45:43,989 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 45, 张三2, 21, 1, 山东
+2017-02-15 15:45:43,990 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 47, 张三4, 19, 1, 湖南
+2017-02-15 15:45:43,990 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 48, 张三5, 21, 1, 湖北
+2017-02-15 15:45:43,991 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 50, 张三7, 18, 1, 山东
+2017-02-15 15:45:43,992 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 51, 张三8, 22, 1, 山东
+2017-02-15 15:45:43,992 TRACE [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:151) - <==        Row: 52, 张三9, 22, 1, 广东
+2017-02-15 15:45:43,992 DEBUG [main] jdbc.BaseJdbcLogger (BaseJdbcLogger.java:145) - <==      Total: 23
+2017-02-15 15:45:43,998 DEBUG [main] decorators.LoggingCache (LoggingCache.java:62) - Cache Hit Ratio [com.yc.dao.mapper.StudentMapper]: 0.5
